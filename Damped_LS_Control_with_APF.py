@@ -3,7 +3,6 @@ import os
 import numpy as np
 import pathlib
 
-# Add parent directory 'PhD' to sys.path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from util import *

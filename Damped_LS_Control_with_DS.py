@@ -5,7 +5,6 @@ import pathlib
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 from matplotlib.animation import FuncAnimation
-from skimage.measure import marching_cubes
 
 # Add parent directory 'PhD' to sys.path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
